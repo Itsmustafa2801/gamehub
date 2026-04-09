@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import axios from 'axios'
 
-//  REPLACE WITH YOUR API KEY
-const API_KEY = ''
+
+const API_KEY = '' //Add your api key here
 const BASE_URL = 'https://api.rawg.io/api'
 
 export const useGames = () => {
